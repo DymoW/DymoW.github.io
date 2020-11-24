@@ -1,9 +1,9 @@
 body {
-    background-color: yellow;
+    background-color: lightblue;
     font-family: monospace, cursive;
     border: 100px solid transparent;
     padding: 37px;
-    border-image: url("https://media1.tenor.com/images/07689dadd4e9e0a829b09defcaf5c980/tenor.gif?itemid=14452723");
+    border-image: url("https://media2.giphy.com/media/l0ExpMzowNRkPNnvW/giphy.gif?cid=ecf05e47iydlxn5ce385huze9gymvpaxgc8kakpryf01xsi4&rid=giphy.gif");
 }
 
 a {

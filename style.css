@@ -1,0 +1,28 @@
+body {
+    background-color: yellow;
+    font-family: monospace, cursive;
+    border: 100px solid transparent;
+    padding: 37px;
+    border-image: url("https://media1.tenor.com/images/07689dadd4e9e0a829b09defcaf5c980/tenor.gif?itemid=14452723");
+}
+
+a {
+    margin: 0;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace, cursive;
+}

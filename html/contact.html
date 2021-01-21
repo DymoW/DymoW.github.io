@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/person.css" />
+        <meta charset="UTF-8">
+        <script src='../scripts/fontawesome.js'></script>
+        <title>Turing Awards</title>
+    </head>
+    <body class="darkmode">
+        <div id="navbar" onclick="togglenavbar()" class="navbar">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+                <li><a href="tim/tim_main.html"><i class="fas fa-user-circle"></i><span>Tim Berners-Lee</span></a></li>
+                <li><a href="alan/alan_main.html"><i class="fas fa-user-circle"></i><span>Alan Turing</span></a></li>
+                <li><a href="alonzo/alonzo_main.html"><i class="fas fa-user-circle"></i><span>Alonzo Church</span></a></li>
+                <li><a href="claude/claude_main.html"><i class="fas fa-user-circle"></i><span>Claude Shannon</span></a></li>
+                <li><a href="over_ons.html"><i class="fas fa-id-card"></i><span>Over ons</span></a></li>
+                <li><a href="contact.html"><i class="fas fa-phone-square"></i><span>Contact</span></a></li>
+            </ul>
+        </div>
+            <div onclick="togglenavbar()" class="arrowicon"><i onclick="togglenavbar()" id="arrowicon" class='fas fa-angle-double-right'></i></div>
+            <script src="../scripts/scripts.js"></script>
+        <script src="../scripts/scripts.js"></script>
+
+        <h1>Contact</h1>   
+
+        <div class="form">
+            <p>Velden met een * zijn verplicht.</p>
+            <form>
+                <label for="fname">Voornaam*:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="tussenv">Tussenvoegsel:</label><br>
+                <input type="text" id="tussenv" name="tussenv"><br>
+                <label for="lname">Achternaam*:</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                <label for="email">E-mail*:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="tel">Telefoonnummer:</label><br>
+                <input type="tel" id="tel" name="tel"><br><br>
+                <label>Geslacht*:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Man</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Vrouw</label><br>
+                <input type="radio" id="othergender" name="gender" value="other" checked>
+                <label for="othergender">Anders</label><br><br>
+                <label>Reden*:</label><br>
+                <input type="radio" id="problem" name="reden" value="problem">
+                <label for="problem">Ik heb een probleem:</label><br>
+                <input type="radio" id="question" name="reden" value="question">
+                <label for="question">Ik heb een vraag:</label><br>
+                <input type="radio" id="otherreason" name="reden" value="other">
+                <label for="otherreason">Anders, namelijk:</label><br>
+                <input type="text" id="anderereden" name="anderereden"><br><br>
+                <input type="submit" value="Submit">
+            </form> 
+        </div>
+    </body>
+</html>

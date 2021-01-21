@@ -1,0 +1,87 @@
+.image {
+  float: right;
+  margin-top: 4vh;
+  margin-right: 2vw;
+  background-color: rgb(39, 39, 39);
+  padding: 8px;
+}
+
+.image > img {
+  height: 55vh;
+  border-radius: 0px;
+}
+
+article {
+  margin-left: 8vw;
+  font-family: Helvetica;
+  color: white;
+  margin-top: 4vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  margin-left: 0.9vw;
+}
+
+.underimagetext {
+  font-family: Helvetica;
+  color: white;
+  font-size: 22px;
+}
+
+h1 {
+  font-family: Helvetica;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 22px ;
+}
+
+.inhoud {
+  font-size: 22px;
+  background-color: #222629;
+  width: 300px;
+  border: 3px solid rgb(99, 99, 99);
+}
+
+.form {
+  margin-left: 8vw;
+  font-family: Helvetica;
+  color: white;
+  margin-top: 4vh;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip + .tooltipdef {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  width: auto;
+  background-color: rgb(49, 49, 49);
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 6px;
+  
+  position: absolute;
+  z-index:  1;
+}
+
+.tooltip:hover + .tooltipdef {
+  opacity: 1;
+}

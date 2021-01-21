@@ -1,0 +1,373 @@
+h1 {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.darkmode {
+    background-color: #474B4f;
+    height: 100%;
+}
+
+.lightmode {
+    background-color: whitesmoke;
+}
+
+.arrowicon > i {
+    color: #6b6e70;
+    white-space: nowrap;
+    margin-left: 30px;
+    font-size: 28px;
+    position: absolute;
+    bottom: 5%;
+    transition: 1s;
+}
+
+.arrowicon {
+    transition: 1s;
+}
+.arrowicon > i:hover {
+    color: #0080c1;
+    transition: 1s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+    height: 100%; 
+    width: 80px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #222629; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    transition: all 1s ease;  
+  }
+
+  .navbarex {
+    height: 100%; 
+    width: 320px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #222629; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    transition: all 1s ease;
+  }
+
+  .navbar:hover > div > i {
+    transition: all 1s ease;
+}
+
+  .container {
+    margin-left: 8.5vw;
+    padding-top: 15vh;
+  }
+
+  .container > div > span {
+    color: white;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+    left: 0;
+  }
+
+  .container > div > a > img {
+    padding-top: 1vh;
+    width: 19vw;
+    height: 52vh;
+    object-fit:  fill;
+  }
+
+  .container > div {
+    background-color: #222629;
+    width: 20vw;
+    height: 60vh;
+    float: left;
+    margin-right: 2vw;
+    text-align: center;
+    position: relative;
+
+  }
+
+  .container_ons {
+    margin-left: 8.5vw;
+    padding-top: 5vh;
+  }
+
+  .container_ons > div > span {
+    color: white;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+    left: 0;
+  }
+
+  .container_ons > div > a > img {
+    padding-top: 1vh;
+    width: 19vw;
+    height: 52vh;
+    object-fit:  fill;
+  }
+
+  .container_ons > div {
+    background-color: #222629;
+    width: 20vw;
+    height: 67vh;
+    float: left;
+    margin-right: 2vw;
+    text-align: center;
+    position: relative;
+
+  }
+
+  .navbar a {
+    margin-left: 25px;
+    font-size: 28px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #6b6e70;
+    display: block;
+    transition: 1s;
+    white-space: nowrap;
+  }
+
+  .navbarex a {
+    margin-left: 25px;
+    font-size: 28px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #6b6e70;
+    display: block;
+    transition: 1s;
+    white-space: nowrap;
+  }
+
+  h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Helvetica;
+    padding-left: 10px;
+  }
+
+  @media only screen and (max-width: 100vh) {
+    .navbar {
+      height: 5.5%; 
+      width: 100%; 
+      position: fixed; 
+      z-index: 1; 
+      top: 0; 
+      left: 0;
+      background-color: #222629; 
+      overflow-x: hidden; 
+      padding-top: 20px;
+      transition: all 1s ease;
+    }
+    .navbar a {
+      margin-left: 25px;
+      font-size: 28px;
+      width: 10%;
+      padding-bottom: 40px;
+      text-decoration: none;
+      font-size: 28px;
+      color: #6b6e70;
+      display: block;
+      transition: 1s;
+      white-space: nowrap;
+    }
+    .navbarex a {
+      margin-left: 25px;
+      font-size: 28px;
+      width: 10%;
+      padding-bottom: 40px;
+      text-decoration: none;
+      font-size: 28px;
+      color: #6b6e70;
+      display: block;
+      transition: 1s;
+      white-space: nowrap;
+    }
+
+    .arrowicon > i {
+      font-size: 0px;
+    }
+
+    .navbarex {
+      height: 100%;
+      transition: all 1s ease;
+      font-size: 24px;
+      width: 100%;
+      opacity: 0.95;
+    }
+    .container > div {
+      background-color: #222629;
+      width: 80%;
+      margin-top: 8vw;
+      text-align: center;
+      float: none;
+      margin-right: 0;
+      margin-left: 5%;
+    }
+
+    
+    .container > div > a > img {
+      padding-top: 1vh;
+      width: 95%;
+      height: 52vh;
+      object-fit: fill;
+    }
+
+    
+    .container {
+      margin-left: 7vw;
+      padding-top: 15vh;
+    }
+
+    .container_ons > div {
+      background-color: #222629;
+      width: 80%;
+      margin-top: 8vw;
+      text-align: center;
+      float: none;
+      margin-right: 0;
+      margin-left: 5vw;
+    }
+
+    
+    .container_ons > div > a > img {
+      padding-top: 1vh;
+      width: 95%;
+      height: 52vh;
+      object-fit: fill;
+    }
+
+    
+    .container_ons {
+      margin-left: 14vw;
+      padding-top: 15vh;
+    }
+
+
+    h1 {
+      padding-top: 60px;
+    }
+  
+    div.image {
+      float: none;
+      text-align: center;
+    }
+
+  }
+  .dropdown-btn {
+    margin-left: 25px;
+    font-size: 28px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #6b6e70;
+    transition: 1s;
+    white-space: nowrap;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    transition: 1s;
+  }
+
+  .navbar a span {
+    padding-left: 35px;
+    font-family: Helvetica;
+  }
+  
+  
+  .navbarex a span {
+    padding-left: 35px;
+    font-family: Helvetica;
+  }
+  .dropdown-btn span {
+    padding-left: 35px;
+    font-family: Helvetica;
+  }
+  .dropdown-btn:hover {
+    color: #0080c1;
+    transition: 0.8s;
+  }
+  .navbar a:hover {
+    color: #0080c1;
+    transition: 1s;
+  }
+
+  .dropdown-container {
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    transform: rotateX(90deg);
+    transform-origin: top;
+    opacity: 0;
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+
+  .dropdown-btn:hover > div {
+    height: 1000px;
+    transition: 1s;
+  }
+
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+
+  input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+  }
+
+  input[type=email] {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+  }
+
+  input[type=tel] {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+  }
+
+  input {
+    background-color: white;
+    outline: none;
+    border: 0;
+  }
+
+  input[type=submit] {
+    width: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+  }

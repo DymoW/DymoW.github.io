@@ -86,7 +86,6 @@ ul {
   .container > div > a > img {
     padding-top: 1vh;
     width: 19vw;
-    height: 52vh;
     object-fit:  fill;
   }
 
